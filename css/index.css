@@ -8,6 +8,7 @@
 	font-family: 'Calibri';
 	font-size: larger;
 	line-height: 5px;
+    color: black;
 }
 
 .bloque{
@@ -17,6 +18,7 @@
 h2{
 	color: red;
 	padding: 5px;
+    margin: 0;
 }
 
 h3{
