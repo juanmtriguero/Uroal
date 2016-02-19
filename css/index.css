@@ -15,9 +15,12 @@
 	width: 25%;
 }
 
+.bloque a{
+    color:black;
+}
+
 h2{
 	color: red;
-	padding: 5px;
     margin: 0;
 }
 
