@@ -15,47 +15,11 @@ body{
 
 /* Barra de navegacion */
 
-.barra{
-	width: 100%;
-	background-color: #FF2501;
-	border-color: black;
-	border-width: 3px;
-	border-collapse: collapse;
-	color: white;
-}
-
-.logo{
-	width: 15%;
-	border-color: black;
-	border-width: 3px;
-}
-
-.logo img{
-	width: 100%;
-}
-
-.svc{
-	width: 8.5%;
-	border-color: black;
-	border-width: 3px;
-}
-
-.svc img{
-	width: 100%;
-}
-
-.svc p{
-	text-align: center;
-	margin: 1px;
-	font-family: 'Arial Narrow';
-	font-size: small;
-}
-
 #barra{
-    height: 108px;
-    border-width: 4px;
-    border-color: #FF2501;
-	background-color: #FF2501;
+    height: 114px;
+    border-width: 7px;
+    border-color: black;
+	background-color: black;
 }
 
 .navbar-brand{
@@ -84,6 +48,7 @@ body{
 #barra .dropdown-menu{
     background-color: #FF2501;
     border: 0;
+    padding-top: 7px;
 }
 
 #barra .dropdown-menu a{
@@ -98,5 +63,9 @@ body{
 .izquierda{
     right: 0;
     left: auto;
-    margin-right: -2px;
+    margin-right: -1px;
+}
+
+.final{
+    margin-right: -5px;
 }
