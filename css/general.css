@@ -110,6 +110,15 @@ body{
     margin-bottom: 7px;
 }
 
+.footer h4{
+    margin: 0;
+}
+
+.footer h4 span{
+    position: relative;
+    top: 2px;
+}
+
 .footer h5{
     margin-top: 15px;
     margin-bottom: 0;
