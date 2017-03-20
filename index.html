@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Talleres Uroal</title>
 		<meta name="Description" content="Taller de reparación y mantenimiento del automóvil en Sevilla. Dirección: C/ Almotamid 11 (junto a Gran Plaza) 41005 Sevilla. Teléfonos: 954922156/695451397."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="files/Icono.ico" rel="SHORTCUT ICON"/>
         <link href="css/bootstrap.css" rel="stylesheet"/>
         <link href="css/general.css" rel="stylesheet"/>
@@ -19,9 +20,14 @@
                     <div class="row">
                         <div class="col-md-2">
                             <div class="navbar-header">
+                                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                                    Servicios <span class="caret"></span>
+                                </button>
                                 <a class="navbar-brand" href="index.html"><img src="files/logo.jpg"></a>
                             </div>
                         </div>
+                        <!-- TODO Terminar navbar responsive -->
+                        <div class = "collapse navbar-collapse" id="navbar">
                         <div class="col-md-1">
                             <ul class="nav navbar-nav">
                                 <li class="dropdown">
@@ -207,6 +213,7 @@
                             </ul>
                         </div>
                     </div>
+                    </div>
                 </div>
             </nav>
 
@@ -284,7 +291,7 @@
 						<li>
 							<h4>
 							<span>VISITAS:&nbsp;</span>
-							<script type="text/javascript" src="http://counter1.fcs.ovh/private/countertab.js?c=08d18f98640b408113d866aee8ce2ab9"></script>
+							<!-- TODO quitar <script type="text/javascript" src="http://counter1.fcs.ovh/private/countertab.js?c=08d18f98640b408113d866aee8ce2ab9"></script> -->
 							</h4>
 						</li>
 					</ul>

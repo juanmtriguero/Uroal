@@ -161,3 +161,28 @@ body{
 .logo{
     height: 33px;
 }
+
+
+/* Ŕesponsive */
+
+.navbar-toggle{
+    font-size: 24px;
+    border-color: white;
+    color: white;
+    margin-top: 20px;
+}
+
+.navbar-toggle:focus{
+    border-color: white;
+    color: #FF2501;
+    background-color: white !important;
+}
+
+@media only screen and (max-width: 767px){
+    
+    #barra{
+        border-color: #FF2501;
+        background-color: #FF2501;
+    };
+
+}
