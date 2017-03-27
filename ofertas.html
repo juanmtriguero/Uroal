@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>Ofertas - Talleres Uroal</title>
 		<meta name="Description" content="Ofertas todo el año."/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="files/Icono.ico" rel="SHORTCUT ICON"/>
         <link href="css/bootstrap.css" rel="stylesheet"/>
         <link href="css/general.css" rel="stylesheet"/>
@@ -15,19 +16,21 @@
             <!-- Barra de navegación -->
             <nav class="navbar navbar-default navbar-static-top" id="barra">
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="navbar-header">
-                                <a class="navbar-brand" href="index.html"><img src="files/logo.jpg"></a>
-                            </div>
+                        <div class="navbar-header">
+                            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img src="files/logo.jpg"></a>
                         </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
+                        <div class = "collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav navbar-right">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="mecanica" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/mecanica.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu derecha">
                                         <li><a href="#">Motor</a></li>
                                         <li><a href="#">Embrague</a></li>
                                         <li><a href="#">Caja de cambios</a></li>
@@ -38,15 +41,11 @@
                                         <li><a href="#">Cambio refrigerante<br/>del motor por 36€</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="electricidad" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/electricidad.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu derecha">
                                         <li><a href="#">Baterías</a></li>
                                         <li><a href="#">Arranque y alternadores</a></li>
                                         <li><a href="#">Calentadores</a></li>
@@ -58,15 +57,11 @@
                                         <li><a href="#">Revisión luces y alineado<br/>de faros por sólo 24€</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="engrase" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/engrase.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu derecha">
                                         <li><a href="#">Aceites</a></li>
                                         <li><a href="#">Filtros de aire</a></li>
                                         <li><a href="#">Filtros de aceite</a></li>
@@ -77,15 +72,11 @@
                                         <li><a href="#">Revisión <u>totalmente gratis</u><br/>con el cambio de aceite</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="neumaticos" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/neumaticos.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu derecha">
                                         <li><a href="#"><b>Más de 50 marcas</b></a></li>
                                         <li><a href="#">Pinchazos</a></li>
                                         <li><a href="#">Válvulas</a></li>
@@ -95,15 +86,11 @@
                                         <li><a href="#">Ofertas todo el año<br/>Pide tu presupuesto</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="frenos" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/frenos.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu izquierda">
+                                    <ul class="dropdown-menu">
                                         <li><a href="#">Pastillas</a></li>
                                         <li><a href="#">Discos</a></li>
                                         <li><a href="#">Bombas</a></li>
@@ -114,15 +101,11 @@
                                         <li><a href="#">Sustitución del<br/>líquido del circuito<br/>de frenos por 36€</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="suspension" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/suspension.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu izquierda">
+                                    <ul class="dropdown-menu">
                                         <li><a href="#">Amortiguadores</a></li>
                                         <li><a href="#">Muelles</a></li>
                                         <li><a href="#">Torretas</a></li>
@@ -131,15 +114,11 @@
                                         <li><a href="#">Puente</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="escapes" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/escapes.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu izquierda">
+                                    <ul class="dropdown-menu">
                                         <li><a href="#">Silenciadores</a></li>
                                         <li><a href="#">Escapes</a></li>
                                         <li><a href="#">Catalizadores</a></li>
@@ -150,15 +129,11 @@
                                         <li><a href="#">Silenciosos traseros:<br/>mano de obra gratis</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="mant" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/mant.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu izquierda">
+                                    <ul class="dropdown-menu">
                                         <li><a href="#">Aire acondicionado</a></li>
                                         <li><a href="#">Calefacción</a></li>
                                         <li><a href="#"><b>Reparación de compresores</b></a></li>
@@ -169,15 +144,11 @@
                                         <li><a href="#">Carga A/C de turismo por 45€</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="diagnosis" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/diagnosis.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu izquierda">
+                                    <ul class="dropdown-menu">
                                         <li><a href="#">Motor</a></li>
                                         <li><a href="#"><b>Cuadro de instrumentos</b></a></li>
                                         <li><a href="#">ABS</a></li>
@@ -189,15 +160,11 @@
                                         <li><a href="#">Primera diagnosis gratuita<br/>para nuevos clientes</a></li>
                                     </ul>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-1">
-                            <ul class="nav navbar-nav">
                                 <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <a id="pre-itv" class="dropdown-toggle" data-toggle="dropdown" href="#">
                                         <img src="files/pre-itv.jpg"/>
                                     </a>
-                                    <ul class="dropdown-menu izquierda final">
+                                    <ul class="dropdown-menu final">
                                         <li><a href="#">Pre-ITV gratuita<br/>previa cita telefónica<br/></a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="#">Consulta condiciones</a></li>
@@ -205,7 +172,6 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
                 </div>
             </nav>
             
@@ -331,6 +297,7 @@
         <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script type="text/javascript" src="scripts/bootstrap.js"></script>
+        <script type="text/javascript" src="scripts/navbar.js"></script>
         
 	</body>
 </html>
